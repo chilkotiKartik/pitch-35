@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Pitchstrom',
-  description: 'Created with Karzo',
+  description: 'Created with Karzo ',
   generator: 'v0.dev',
 }
 
