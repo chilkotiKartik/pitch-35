@@ -1396,7 +1396,7 @@ export default function PitchStormWebsite() {
                 "Every idea begins with a spark that can light up the universe"
               </p>
               <p className="text-xs md:text-sm text-gray-500">
-                © 2025 PitchStorm. Launching dreams beyond the stars. 🚀✨
+                © 2025 Kartik Chilkoti . Launching dreams beyond the stars. 🚀✨
               </p>
               <div className="flex flex-wrap justify-center space-x-2 md:space-x-4 text-xs text-gray-500">
                 <span>Open to All</span>
@@ -1406,6 +1406,8 @@ export default function PitchStormWebsite() {
                 <span>Online Event</span>
                 <span>•</span>
                 <span>Innovation for Everyone</span>
+                <span>•</span>
+                <span>Made By Kartik Chilkoti</span>
               </div>
             </div>
           </div>
@@ -1438,7 +1440,7 @@ export default function PitchStormWebsite() {
                 </div>
                 <div>
                   <span className="font-bold text-white text-base md:text-lg">Karzo</span>
-                  <p className="text-xs text-gray-400">Your Cosmic AI Guide</p>
+                  <p className="text-xs text-gray-400">Your Cosmic Karzo Guide</p>
                 </div>
               </div>
               <Button variant="ghost" size="icon" onClick={() => setChatOpen(false)} className="hover:text-red-400">
