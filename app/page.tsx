@@ -932,7 +932,7 @@ export default function PitchStormWebsite() {
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 max-w-2xl mx-auto">
                 {[
-                  { icon: Trophy, text: "Amazing cash prizes" },
+                  { icon: Trophy, text: "Amazing prizes" },
                   { icon: Award, text: "Recognition certificates" },
                   { icon: Users, text: "Mentorship opportunities" },
                   { icon: Briefcase, text: "Startup resources" },
