@@ -121,25 +121,29 @@ export default function PitchStormWebsite() {
     "⚡ Renewable energy optimization system",
   ]
 
-  // Countdown timer effect - counting down to July 10th registration deadline
-  useEffect(() => {
-    const timer = setInterval(() => {
-      const now = new Date().getTime()
-      const deadline = new Date("2025-07-15T23:59:59").getTime()
-      const timeLeft = deadline - now
+  // Countdown timer effect - counting down to July 15th, 2025 at 11:59:59 PM
+useEffect(() => {
+  const timer = setInterval(() => {
+    const now = new Date().getTime()
+    const deadline = new Date("2025-07-15T23:59:59").getTime()
+    const timeLeft = deadline - now
 
-      if (timeLeft > 0) {
-        const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24))
-        const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
-        const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60))
-        const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000)
+    if (timeLeft > 0) {
+      const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24))
+      const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
+      const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60))
+      const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000)
 
-        setCountdown({ days, hours, minutes, seconds })
-      }
-    }, 1000)
+      setCountdown({ days, hours, minutes, seconds })
+    } else {
+      // Optional: Reset to zero or stop timer when time is up
+      setCountdown({ days: 0, hours: 0, minutes: 0, seconds: 0 })
+      clearInterval(timer)
+    }
+  }, 1000)
 
-    return () => clearInterval(timer)
-  }, [])
+  return () => clearInterval(timer)
+}, [])
 
   // Mouse tracking for interactive effects (disabled on mobile for performance)
   useEffect(() => {
