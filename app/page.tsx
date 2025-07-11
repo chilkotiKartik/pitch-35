@@ -73,7 +73,7 @@ export default function PitchStormWebsite() {
     dates: {
       keywords: ["when", "date", "time", "schedule", "calendar"],
       response:
-        "📅 PitchStorm 2025 Timeline: Registration Deadline - July 10th, 2nd Round (Prototype) - July 15th, Grand Finale (Judges) - July 22nd. All rounds will be conducted via Google Meet for maximum accessibility!",
+        "📅 PitchStorm 2025 Timeline: Registration Deadline - July 15th, 2nd Round (Prototype) - July 15th, Grand Finale (Judges) - July 22nd. All rounds will be conducted via Google Meet for maximum accessibility!",
     },
     prizes: {
       keywords: ["prize", "reward", "money", "cash", "award", "win"],
@@ -501,7 +501,7 @@ useEffect(() => {
             <div className="bg-gradient-to-r from-purple-900/60 to-blue-900/60 backdrop-blur-lg rounded-2xl md:rounded-3xl p-6 md:p-8 border border-purple-500/40 shadow-2xl">
               <div className="flex items-center justify-center space-x-2 md:space-x-3 mb-4 md:mb-6">
                 <Timer className="w-6 md:w-8 h-6 md:h-8 text-purple-300" />
-                <p className="text-lg md:text-2xl text-purple-300 font-bold">🚀 Registration Deadline</p>
+                <p className="text-lg md:text-2xl text-purple-300 font-bold">🚀 Registration Deadline Extended</p>
               </div>
               <div className="grid grid-cols-4 gap-2 md:gap-4 max-w-sm md:max-w-lg mx-auto">
                 {[
@@ -520,7 +520,7 @@ useEffect(() => {
                   </div>
                 ))}
               </div>
-              <p className="text-sm md:text-base text-yellow-300 mt-4 font-semibold">July 10th, 2025</p>
+              <p className="text-sm md:text-base text-yellow-300 mt-4 font-semibold">July 15th, 2025</p>
             </div>
 
             <div className="space-y-6 md:space-y-8">
