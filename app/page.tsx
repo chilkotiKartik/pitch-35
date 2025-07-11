@@ -140,6 +140,7 @@ useEffect(() => {
       setCountdown({ days: 0, hours: 0, minutes: 0, seconds: 0 })
       clearInterval(timer)
     }
+    
   }, 1000)
 
   return () => clearInterval(timer)
