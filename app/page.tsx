@@ -125,7 +125,7 @@ export default function PitchStormWebsite() {
   useEffect(() => {
     const timer = setInterval(() => {
       const now = new Date().getTime()
-      const deadline = new Date("2025-07-10T23:59:59").getTime()
+      const deadline = new Date("2025-07-15T23:59:59").getTime()
       const timeLeft = deadline - now
 
       if (timeLeft > 0) {
