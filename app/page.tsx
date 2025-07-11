@@ -53,7 +53,7 @@ export default function PitchStormWebsite() {
   const [showScrollTop, setShowScrollTop] = useState(false)
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
   const [welcomeStep, setWelcomeStep] = useState(0)
-  const [countdown, setCountdown] = useState({ days: 15, hours: 8, minutes: 45, seconds: 30 })
+  const [countdown, setCountdown] = useState({ days: 5, hours: 8, minutes: 45, seconds: 30 })
   const [musicPlaying, setMusicPlaying] = useState(false)
   const [ideaGenerated, setIdeaGenerated] = useState("")
   const audioRef = useRef<HTMLAudioElement>(null)
