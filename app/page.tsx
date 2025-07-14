@@ -73,7 +73,7 @@ export default function PitchStormWebsite() {
     dates: {
       keywords: ["when", "date", "time", "schedule", "calendar"],
       response:
-        "📅 PitchStorm 2025 Timeline: Registration Deadline - July 15th, 2nd Round (Prototype) - July 15th, Grand Finale (Judges) - July 22nd. All rounds will be conducted via Google Meet for maximum accessibility!",
+        "📅 PitchStorm 2025 Timeline: Registration Deadline - July 15th, Grand Finale (Judges) - July 22nd. All rounds will be conducted via Google Meet for maximum accessibility!",
     },
     prizes: {
       keywords: ["prize", "reward", "money", "cash", "award", "win"],
@@ -98,7 +98,7 @@ export default function PitchStormWebsite() {
     rounds: {
       keywords: ["round", "stage", "phase", "prototype", "finale"],
       response:
-        "🎯 Three Cosmic Rounds: 1) Registration & Initial Review (Deadline: July 10th), 2) Prototype Round (July 15th) - Present your working prototype or detailed concept, 3) Grand Finale (July 22nd) - Final pitches to expert judges via Google Meet!",
+        "🎯 Three Cosmic Rounds: 1) Registration & Initial Review (Deadline: July 15th), 2)  - Present your working prototype or detailed concept, 3) Grand Finale (July 22nd) - Final pitches to expert judges via Google Meet!",
     },
   }
 
@@ -648,7 +648,7 @@ useEffect(() => {
                 <p className="text-xl md:text-3xl font-bold text-yellow-300">Don't Miss Out!</p>
               </div>
               <p className="text-base md:text-xl text-gray-300 mb-4 md:mb-6">
-                Register before July 10th deadline and secure your spot:
+                Register before July 15th deadline and secure your spot:
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                 {[
@@ -827,7 +827,7 @@ useEffect(() => {
                 {
                   icon: Users,
                   title: "📋 Registration & Initial Review",
-                  date: "Deadline: July 10, 2025",
+                  date: "Deadline: July 15, 2025",
                   time: "11:59 PM",
                   description:
                     "Submit your innovative idea through our Google Form. Our cosmic council will review all submissions and select participants for the next round.",
@@ -842,7 +842,7 @@ useEffect(() => {
                 {
                   icon: Code,
                   title: "🔧 Prototype Round",
-                  date: "July 15, 2025",
+                  date: "soon",
                   time: "Google Meet Session",
                   description:
                     "Present your prototype or detailed concept to our expert panel. Show your progress and demonstrate the feasibility of your cosmic idea.",
@@ -1036,7 +1036,7 @@ useEffect(() => {
             <div className="bg-gradient-to-r from-red-900/40 to-orange-900/40 backdrop-blur-lg rounded-xl md:rounded-2xl p-6 md:p-8 border border-red-500/40 max-w-3xl mx-auto">
               <div className="flex items-center justify-center space-x-2 md:space-x-4 mb-4">
                 <Timer className="w-6 md:w-8 h-6 md:h-8 text-red-400" />
-                <p className="text-xl md:text-2xl font-bold text-red-300">Registration Deadline: July 10th!</p>
+                <p className="text-xl md:text-2xl font-bold text-red-300">Registration Deadline: July 15th!</p>
               </div>
               <p className="text-base md:text-lg text-gray-300 mb-4">
                 Don't miss your chance to join the cosmic innovation journey:
@@ -1264,7 +1264,7 @@ useEffect(() => {
                 {
                   question: "📅 What is the event timeline?",
                   answer:
-                    "Three cosmic rounds: 1) Registration Deadline - July 10th, 2025, 2) Prototype Round - July 15th, 2025 (present your prototype via Google Meet), 3) Grand Finale - July 22nd, 2025 (final pitches to expert judges via Google Meet). All rounds are conducted online for maximum accessibility!",
+                    "Three cosmic rounds: 1) Registration Deadline - July 15th, 2025, 2) Grand Finale - July 22nd, 2025 (final pitches to expert judges via Google Meet). All rounds are conducted online for maximum accessibility!",
                 },
                 {
                   question: "📍 Where is the event happening?",
